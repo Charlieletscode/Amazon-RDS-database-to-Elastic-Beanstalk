@@ -26,6 +26,9 @@ Master username and Master password – The database username and password. Make
 ex:postgres, 0000000
 Verify the default settings for the remaining options, and then choose Create database.
 
+<br>
+<br>
+To modify the inbound rules on the security group that's attached to your RDS instance
 1. Open the Amazon RDS console.
 2. Choose Databases.
 3. Choose the name of your DB instance to view its details.
@@ -44,5 +47,16 @@ have access to the database.
 11. then save
 ![image](https://github.com/Charlieletscode/Amazon-RDS-database-to-Elastic-Beanstalk/blob/main/img1.png)
 
+## install wordpress
 
+## To launch an environment (console)
+1. Open the Elastic Beanstalk console using this preconfigured link: console.aws.amazon.com/elasticbeanstalk/home#/newApplication?applicationName=tutorials&environmentType=LoadBalanced
+
+2. For Platform, select the platform and platform branch that match the language used by your application.
+
+3. For Application code, choose Sample application.
+
+4. Choose Review and launch.
+
+5. Review the available options. Choose the available option you want to use, and when you're ready, choose Create app.
 
